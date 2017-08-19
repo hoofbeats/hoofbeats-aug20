@@ -1,0 +1,31 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Hoofbeats Health
+short title: Hoofbeats
+email: your-email@domain.com
+description:
+  the digital toolbox for your healthcare
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://hoofbeats.github.io" # the base hostname & protocol for your site
+twitter_username: HoofbeatsHealth
+github_username:  Hoofbeats
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [
+  "node_modules",
+  "LICENSE",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "gulpfile.babel.js",
+  ".babelrc",
+  ".gitignore",
+  "sass",
+  "scss",
+  "validate"
+]
