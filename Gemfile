@@ -9,12 +9,12 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "3.5.2"
+gem "jekyll", "3.5.2"
 
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+#gem 'github-pages', group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   gem "jekyll-github-metadata", "~> 1.0"
-# end
+group :jekyll_plugins do
+  gem "jekyll-github-metadata"
+  #gem "jekyll-github-metadata", "~> 1.0"
+end

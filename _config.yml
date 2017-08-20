@@ -14,7 +14,15 @@ github_username:  Hoofbeats
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:title
+plugins: [
+  "jekyll-github-metadata"
+]
+
+sass:
+  sass_dir:  _sass
+  style:  compressed
+
 exclude: [
   "node_modules",
   "LICENSE",
