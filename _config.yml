@@ -14,7 +14,7 @@ github_username:  Hoofbeats
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:title/
+permalink: /:year/:title
 plugins: [
   "jekyll-github-metadata"
 ]
