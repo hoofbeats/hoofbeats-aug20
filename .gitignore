@@ -5,7 +5,7 @@ _site/
 scripts/
 Gemfile.lock
 .publish/
-css/
+#css/
 
 ### Always-ignore files and folders ###
 *.diff
