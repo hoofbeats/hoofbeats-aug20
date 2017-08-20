@@ -6,9 +6,8 @@
 title: Hoofbeats Health
 short title: Hoofbeats
 email: your-email@domain.com
-description:
-  the digital toolbox for your healthcare
-baseurl: "/" # the subpath of your site, e.g. /blog
+description: the digital toolbox for your healthcare
+baseurl: ""
 url: "https://hoofbeats.github.io" # the base hostname & protocol for your site
 twitter_username: HoofbeatsHealth
 github_username:  Hoofbeats
